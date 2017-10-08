@@ -7,11 +7,19 @@ body {
     text-align: center;
 }
 header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
     height: 69px;
+    width: 100%;
+    background-color: black;
     border-bottom: 1px solid seashell;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
 }
 header .logo {
     height: 50px;
@@ -38,7 +46,7 @@ nav a {
     align-items: center;
     justify-content: center;
     height: 700px;
-
+    margin-top: 69px;
 }
 
 .hero .stripe {
@@ -46,9 +54,20 @@ nav a {
     width: 1200px;
 }
 
+.hero h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.hero h4 {
+    margin: 0;
+    padding: 10px 0;
+}
+
 .content1 {
     width: 1000px;
     margin: auto;
+    padding: 69px 0;
 
 }
 
@@ -90,6 +109,10 @@ nav a {
 .content2 p {
     display: block;
     margin: 44px 0;
+}
+
+footer {
+    padding-top: 69px;
 }
 
 footer .copyright {
