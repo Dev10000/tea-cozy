@@ -3,9 +3,9 @@ body {
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
     text-align: center;
 }
+
 header {
     position: fixed;
     top: 0px;
@@ -18,9 +18,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
+
 header .logo {
     height: 50px;
     margin-left: 10px;
@@ -47,6 +46,7 @@ nav a {
     justify-content: center;
     height: 700px;
     margin-top: 69px;
+    opacity: 0.9;
 }
 
 .hero .stripe {
@@ -68,6 +68,7 @@ nav a {
     width: 1000px;
     margin: auto;
     padding: 69px 0;
+    opacity: 0.9;
 
 }
 
@@ -86,13 +87,27 @@ nav a {
 }
 
 .content2 {
-    background-image: url(../images/img-locations-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    position: relative;
+    padding-top: 70px;
     height: 500px;
     width: 1200px;
+    margin: auto;
+}
+
+.content2::after {
+    content: "";
+    background-image: url(../images/img-locations-background.jpg);
     padding-top: 70px;
     margin: auto;
+    height: 500px;
+    width: 1200px;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 .content2 .child-box {
@@ -104,6 +119,7 @@ nav a {
 
 .content2 h2 {
     margin-bottom: 15px;
+    color: rgba(255, 245, 238, 0.9);
 }
 
 .content2 p {
@@ -113,6 +129,7 @@ nav a {
 
 footer {
     padding-top: 69px;
+    opacity: 0.9;
 }
 
 footer .copyright {
