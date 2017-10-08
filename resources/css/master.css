@@ -1,0 +1,98 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    display: inline-block;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+nav a {
+    line-height: normal;
+    color: seashell;
+    margin-left: 10px;
+}
+
+.hero {
+    background-image: url(../images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+
+}
+
+.hero .stripe {
+    background-color: black;
+    width: 1200px;
+}
+
+.content1 {
+    width: 1000px;
+    margin: auto;
+
+}
+
+.content1 img {
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+}
+
+.content1 .child-box {
+    display: inline-block;
+}
+
+.content1 .child-box h4 {
+    margin-top: 10px;
+}
+
+.content2 {
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    padding-top: 70px;
+    margin: auto;
+}
+
+.content2 .child-box {
+    display: inline-block;
+    background-color: black;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.content2 h2 {
+    margin-bottom: 15px;
+}
+
+.content2 p {
+    display: block;
+    margin: 44px 0;
+}
+
+footer .copyright {
+    text-align: left;
+    margin-left: 20px;
+}
